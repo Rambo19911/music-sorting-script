@@ -84,6 +84,7 @@ This project is available for free use and modification.
 
 ## Disclaimer
 
+The script may contain some bug, if anyone has any suggestions to improve or refine it, you are welcome.
 Always back up your music collection before performing bulk operations on your files. The developer is not responsible for any data loss that may occur from using this application.
 
 Since the script does not use third-party libraries for metadata extraction, it may not correctly read metadata from all audio files, especially those with non-standard tags or encoding. The script uses native Windows APIs which may have limitations in handling certain file formats or metadata structures.
