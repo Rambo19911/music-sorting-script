@@ -25,7 +25,6 @@ The Music File Organizer provides several powerful features to help you organize
 
 1. Download the `Music_File_Organizer.ps1` script file
 2. Right-click on the file and select "Run with PowerShell"
-3. Or Download .exe and run from double click, installation not required.
 
 If you encounter execution policy restrictions, you may need to run the following command in an administrative PowerShell window:
 
@@ -44,7 +43,9 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 
 ## How It Works
 
-The application uses PowerShell and Windows Shell API to extract metadata from music files. It supports various audio formats including:
+The application uses PowerShell and Windows Shell API to extract metadata from music files. It does not rely on any third-party applications or libraries, which improves compatibility but may occasionally result in errors when reading metadata from certain audio files.
+
+It supports various audio formats including:
 
 - MP3 (.mp3)
 - FLAC (.flac)
@@ -84,3 +85,5 @@ This project is available for free use and modification.
 ## Disclaimer
 
 Always back up your music collection before performing bulk operations on your files. The developer is not responsible for any data loss that may occur from using this application.
+
+Since the script does not use third-party libraries for metadata extraction, it may not correctly read metadata from all audio files, especially those with non-standard tags or encoding. The script uses native Windows APIs which may have limitations in handling certain file formats or metadata structures.
