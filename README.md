@@ -25,6 +25,7 @@ The Music File Organizer provides several powerful features to help you organize
 
 1. Download the `Music_File_Organizer.ps1` script file
 2. Right-click on the file and select "Run with PowerShell"
+3. Or Download .exe and run from double click, installation not required.
 
 If you encounter execution policy restrictions, you may need to run the following command in an administrative PowerShell window:
 
